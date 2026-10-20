@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+video{
+	
+}
+.zir{
+	background: red;
+	width: 50%;
+	height: 500px;
+	border-radius: 10px;
+	z-index: -1;
+	position: fixed;
+}
+.ro{
+	background: blue;
+	width: 20%;
+	height: 200px;
+	border-radius: 10px;
+	z-index: 1;
+	position: absolute;
+}
