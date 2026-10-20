@@ -1,0 +1,33 @@
+#go{
+    background-color: aqua;
+    border: none;
+    padding: 5px;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: 10s;
+}
+#go:hover{
+    background-color: rgb(0, 176, 176);
+    
+    right: -400px;
+}
+#go:active{
+    font-size: 10px;
+}
+
+
+
+.css-animation{
+    background-color: aqua;
+    border: none;
+    padding: 5px;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: 10s;
+}
+.css-animation:hover{
+    left: 300px;
+    top: 100px;
+}
