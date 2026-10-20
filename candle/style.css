@@ -1,0 +1,29 @@
+body{
+    justify-content: center;
+    align-items: center;
+    justify-items:center ;
+}
+.candle{
+    width: 500px;
+    height: 500px;
+    background: #cadbeb;
+    margin-bottom: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items:center ;
+    align-content: center;
+}
+#candle1{
+    width: 12px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    justify-items:center ;
+
+}
+#candle-fat{
+    width: 12px;
+    height: 100px;
+    background-image: url(green.png);
+}

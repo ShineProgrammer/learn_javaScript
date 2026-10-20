@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body{
+    display: flex;
+}
+#tagBar{
+    width: 10%;
+    height: 100vh;
+    border-right: solid rgb(21, 27, 77) 1px;
+    background-color: #00001a;
+    
+}
+.tagDivMake{
+    width: 100%;
+    padding: 6px;
+    font-size: 11px;
+    border: none;
+    color: white;
+    background-color: #01012b;
+    text-align: left;
+    transition: 0.2s;
+    
+    
+}
+.tagDivMake:hover{
+    background-color: #00003e;
+}
+#middle{
+    width: 80%;
+    height: 60vh;
+    color: aqua;
+}
+
+#settingBar{
+    width: 10%;
+   
+}
+#resultBar{
+    width: 100%;
+    background-color: #ffffff;
+    height: 60vh;
+    display: flex;
+    overflow: scroll;
+}
+#settingBar{
+    width: 100%;
+    height: 40vh;
+    background-color: #00001a;
+    opacity: 0;
+}
+.settingInput{
+    width: 17.42%;
+    border: none;
+    background-color: rgb(24, 23, 48);
+    margin: 10px;
+    margin-left: 10%;
+    height: 25px;
+    padding-left: 0.5%;
+    color: white;
+    
+}
+.settingBar-div{
+    width: 100%;
+    
+}
+.ok{
+    color: white;
+    padding: 3px;
+    border: none;
+    border-radius: 10000px;
+    background-color: #30304d;
+    font-size: 12px;
+}
